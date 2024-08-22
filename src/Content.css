@@ -111,3 +111,11 @@ button:hover{
     height: 30px;
     text-align: center;
 }
+
+.clearBtn{
+    margin-top: 10px;
+}
+
+.clearBtn button{
+    border-radius: 5px;
+}

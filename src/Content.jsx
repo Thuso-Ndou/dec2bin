@@ -33,6 +33,12 @@ export default function Content() {
       }
       setBin(stringBin);
     }
+
+    function clear(){
+        setBin('');
+        setDecimal('');
+    }
+
   return (
     <>
     <div className='nav-bar'>
@@ -56,6 +62,10 @@ export default function Content() {
       <div className="display">
         <h3 className='bin-head'>Binary</h3>
         <p className="binary">{bin}</p>
+      </div>
+
+      <div className="clearBtn">
+        <button onClick={clear}>Clear</button>
       </div>
     </div>
 
