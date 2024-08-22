@@ -67,6 +67,9 @@ input{
     height: 30px;
     width: 120px;
     outline: #022136;
+    font-weight: 400;
+    font-size: 15px;
+    background-color: #fff;
 }
 
 button{
