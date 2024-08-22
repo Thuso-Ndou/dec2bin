@@ -64,5 +64,3 @@ export default function Content() {
     </>
   )
 }
-//022136
-//987776

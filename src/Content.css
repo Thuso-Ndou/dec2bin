@@ -62,3 +62,22 @@
     text-align: center;
     padding: 10px 10px;
 }
+
+input{
+    height: 30px;
+    width: 120px;
+    outline: #022136;
+}
+
+button{
+    background-color: #987776;
+    height: 37px;
+    width: 120px;
+    color: #022136;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.content .btn-input{
+    border: 1px solid #987776;
+}
