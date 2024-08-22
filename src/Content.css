@@ -76,6 +76,12 @@ button{
     color: #022136;
     font-weight: 600;
     font-size: 15px;
+    border: #022136;
+}
+
+button:hover{
+    color: #fff;
+    cursor: pointer;
 }
 
 .content .btn-input{
