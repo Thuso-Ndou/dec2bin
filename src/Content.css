@@ -28,7 +28,7 @@
     border-top-color: #987776;
     border-radius: 50%;
     animation: rotate 1s infinite;
-    margin: 10px 10px;
+    margin: 12px 12px;
 }
 
 @keyframes rotate {
@@ -65,7 +65,7 @@
 
 input{
     height: 30px;
-    width: 120px;
+    width: 175px;
     outline: #022136;
     font-weight: 400;
     font-size: 15px;
@@ -75,10 +75,10 @@ input{
 button{
     background-color: #987776;
     height: 37px;
-    width: 120px;
+    width: 175px;
     color: #022136;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 17px;
     border: #022136;
 }
 
@@ -89,4 +89,25 @@ button:hover{
 
 .content .btn-input{
     border: 1px solid #987776;
+}
+
+.display{
+    margin: 5px 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.display .bin-head{
+    background-color: #bdbdbd;
+    color: #12222f;
+    width: 360px;
+    height: 40px;
+    text-align: center;
+}
+
+.display .binary{
+    background-color: #fff;
+    color: #12222f;
+    height: 30px;
+    text-align: center;
 }

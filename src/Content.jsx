@@ -54,6 +54,7 @@ export default function Content() {
       </div>
 
       <div className="display">
+        <h3 className='bin-head'>Binary</h3>
         <p className="binary">{bin}</p>
       </div>
     </div>
